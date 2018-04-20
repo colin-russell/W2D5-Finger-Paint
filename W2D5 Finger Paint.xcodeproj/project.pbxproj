@@ -13,6 +13,8 @@
 		3BA56F4C208A643A00B9D2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA56F4B208A643A00B9D2D5 /* Assets.xcassets */; };
 		3BA56F4F208A643A00B9D2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA56F4D208A643A00B9D2D5 /* LaunchScreen.storyboard */; };
 		3BA56F52208A643A00B9D2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F51208A643A00B9D2D5 /* main.m */; };
+		3BA56F5E208A6B7700B9D2D5 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F5D208A6B7700B9D2D5 /* TopView.m */; };
+		3BA56F61208A6BD600B9D2D5 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F60208A6BD600B9D2D5 /* BottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3BA56F4E208A643A00B9D2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BA56F50208A643A00B9D2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA56F51208A643A00B9D2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA56F5C208A6B7700B9D2D5 /* TopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopView.h; sourceTree = "<group>"; };
+		3BA56F5D208A6B7700B9D2D5 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
+		3BA56F5F208A6BD600B9D2D5 /* BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		3BA56F60208A6BD600B9D2D5 /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +64,53 @@
 		3BA56F41208A643600B9D2D5 /* W2D5 Finger Paint */ = {
 			isa = PBXGroup;
 			children = (
-				3BA56F42208A643600B9D2D5 /* AppDelegate.h */,
-				3BA56F43208A643600B9D2D5 /* AppDelegate.m */,
+				3BA56F58208A6A7F00B9D2D5 /* Model */,
+				3BA56F59208A6A9700B9D2D5 /* View */,
+				3BA56F5A208A6AA100B9D2D5 /* Controller */,
+				3BA56F5B208A6AE000B9D2D5 /* Supporting Files */,
+			);
+			path = "W2D5 Finger Paint";
+			sourceTree = "<group>";
+		};
+		3BA56F58208A6A7F00B9D2D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BA56F5C208A6B7700B9D2D5 /* TopView.h */,
+				3BA56F5D208A6B7700B9D2D5 /* TopView.m */,
+				3BA56F5F208A6BD600B9D2D5 /* BottomView.h */,
+				3BA56F60208A6BD600B9D2D5 /* BottomView.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3BA56F59208A6A9700B9D2D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BA56F48208A643600B9D2D5 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3BA56F5A208A6AA100B9D2D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				3BA56F45208A643600B9D2D5 /* ViewController.h */,
 				3BA56F46208A643600B9D2D5 /* ViewController.m */,
-				3BA56F48208A643600B9D2D5 /* Main.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3BA56F5B208A6AE000B9D2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA56F43208A643600B9D2D5 /* AppDelegate.m */,
+				3BA56F42208A643600B9D2D5 /* AppDelegate.h */,
 				3BA56F4B208A643A00B9D2D5 /* Assets.xcassets */,
 				3BA56F4D208A643A00B9D2D5 /* LaunchScreen.storyboard */,
 				3BA56F50208A643A00B9D2D5 /* Info.plist */,
 				3BA56F51208A643A00B9D2D5 /* main.m */,
 			);
-			path = "W2D5 Finger Paint";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +185,8 @@
 			files = (
 				3BA56F47208A643600B9D2D5 /* ViewController.m in Sources */,
 				3BA56F52208A643A00B9D2D5 /* main.m in Sources */,
+				3BA56F5E208A6B7700B9D2D5 /* TopView.m in Sources */,
+				3BA56F61208A6BD600B9D2D5 /* BottomView.m in Sources */,
 				3BA56F44208A643600B9D2D5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
