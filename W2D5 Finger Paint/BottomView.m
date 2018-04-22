@@ -15,7 +15,35 @@
 
 @implementation BottomView
 
+- (IBAction)blackButtonPressed:(UIButton *)sender {
+}
 
+- (IBAction)brownButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)cyanButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)greenButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)magentaButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)blueButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)purpleButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)redButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)yellowButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)orangeButtonPressed:(UIButton *)sender {
+}
 
 
 @end

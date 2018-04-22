@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol TopViewDelegate <NSObject>
+
+- (UIColor *)colorToUse;
+
+@end
+
 @interface TopView : UIView
+
+@property (nonatomic, weak) id<TopViewDelegate> delegate;
 
 @end

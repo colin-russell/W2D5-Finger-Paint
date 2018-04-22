@@ -49,13 +49,12 @@
     
 }
 
-
 - (void)drawRect:(CGRect)rect {
     UIBezierPath *path = [UIBezierPath bezierPath];
     path.lineWidth = 5.0;
     path.lineCapStyle = kCGLineCapRound;
-    UIColor *gray = [UIColor grayColor];
-    [gray setStroke];
+    UIColor *color = [self.delegate colorToUse];
+    [color setStroke];
     for (LineSegment *segment in self.line) {
         if (CGPointEqualToPoint(segment.firstPoint, segment.secondPoint)) {
             [path moveToPoint:segment.firstPoint];
