@@ -41,6 +41,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomView" destination="K23-qh-rRI" id="KNT-lv-MPK"/>
+                        <outlet property="topView" destination="jzp-zR-qul" id="tzW-wq-2rx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

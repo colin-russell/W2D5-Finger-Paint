@@ -15,6 +15,7 @@
 		3BA56F52208A643A00B9D2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F51208A643A00B9D2D5 /* main.m */; };
 		3BA56F5E208A6B7700B9D2D5 /* TopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F5D208A6B7700B9D2D5 /* TopView.m */; };
 		3BA56F61208A6BD600B9D2D5 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F60208A6BD600B9D2D5 /* BottomView.m */; };
+		3BA56F64208A8C9400B9D2D5 /* LineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA56F63208A8C9400B9D2D5 /* LineSegment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		3BA56F5D208A6B7700B9D2D5 /* TopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopView.m; sourceTree = "<group>"; };
 		3BA56F5F208A6BD600B9D2D5 /* BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
 		3BA56F60208A6BD600B9D2D5 /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		3BA56F62208A8C9400B9D2D5 /* LineSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineSegment.h; sourceTree = "<group>"; };
+		3BA56F63208A8C9400B9D2D5 /* LineSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineSegment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				3BA56F5D208A6B7700B9D2D5 /* TopView.m */,
 				3BA56F5F208A6BD600B9D2D5 /* BottomView.h */,
 				3BA56F60208A6BD600B9D2D5 /* BottomView.m */,
+				3BA56F62208A8C9400B9D2D5 /* LineSegment.h */,
+				3BA56F63208A8C9400B9D2D5 /* LineSegment.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA56F47208A643600B9D2D5 /* ViewController.m in Sources */,
+				3BA56F64208A8C9400B9D2D5 /* LineSegment.m in Sources */,
 				3BA56F52208A643A00B9D2D5 /* main.m in Sources */,
 				3BA56F5E208A6B7700B9D2D5 /* TopView.m in Sources */,
 				3BA56F61208A6BD600B9D2D5 /* BottomView.m in Sources */,
